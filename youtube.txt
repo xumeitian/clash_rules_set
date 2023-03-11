@@ -1,4 +1,3 @@
 payload:
-  - 'youtube.com'
-  - 'alt1-mtalk.google.com'
-  - 'alt2-mtalk.google.com'
+  - .*\.google\.com.*
+  - .*\.facebook\.com.*
