@@ -1,4 +1,0 @@
-payload:
-  # > Youtube
-  - DOMAIN-SUFFIX,youtube.com
-  - DOMAIN-SUFFIX,chat.openai.com
