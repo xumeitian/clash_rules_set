@@ -2,3 +2,4 @@ payload:
   - 'youtube.com'
   - 'google.com'
   - 'openai.com'
+  - 'youtube.com'
