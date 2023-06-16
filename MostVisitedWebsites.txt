@@ -8,3 +8,4 @@ payload:
   - 'bing.com'
   - 'notion.so'
   - 'youtube.com'
+  - 'azure.com'
