@@ -6,4 +6,5 @@ payload:
   - 'youdao.com'
   - 'github.com'
   - 'wind.com.cn'
-  
+  - 'jd.com'
+  - 'mail.163.com'
