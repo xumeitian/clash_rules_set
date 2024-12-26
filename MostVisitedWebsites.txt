@@ -7,6 +7,4 @@ payload:
   - 'github.com'
   - 'bing.com'
   - 'notion.so'
-  - 'youtube.com'
   - 'azure.com'
-  - 'openai.com'
