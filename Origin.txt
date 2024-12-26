@@ -3,3 +3,4 @@ payload:
   - 'bing.com'
   - 'copilot.bing.com'  
   - 'openai.com'
+  - 'gemini.google.com'
