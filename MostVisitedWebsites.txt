@@ -1,7 +1,7 @@
 payload:
   - 'youtube.com'
   - 'google.com'
-  - 'openai.com'
+  - 'googlevideo.com'
   - 'microsoft.com'
   - 'live.com'
   - 'github.com'
