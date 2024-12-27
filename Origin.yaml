@@ -1,0 +1,6 @@
+payload:
+  - DOMAIN-SUFFIX,tiktok.com
+  - DOMAIN-SUFFIX,bing.com
+  - DOMAIN-SUFFIX,copilot.bing.com
+  - DOMAIN-SUFFIX,openai.com
+  - DOMAIN-SUFFIX,gemini.google.com
