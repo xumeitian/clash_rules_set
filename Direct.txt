@@ -1,9 +1,0 @@
-payload:
-  - '*.*.163.com'
-  - '*.*.toutiao.com'
-  - '*.*.camcard.com'
-  - '*.*.bilibili.com'
-  - '*.*.youdao.com'
-  - '*.*.wind.com.cn'
-  - '*.*.jd.com'
-  - '*.*.mail.163.com'
