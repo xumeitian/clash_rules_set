@@ -8,3 +8,5 @@ payload:
   - DOMAIN-SUFFIX,jd.com
   - DOMAIN-SUFFIX,mail.163.com
   - DOMAIN-SFFIX,sogou.com
+  - DOMAIN-SUFFIX,doubao.com
+  - DOMAIN-SUFFIX,tiangong.cn
