@@ -1,6 +1,6 @@
 payload:
-  - 'tiktok.com'
-  - 'bing.com'
-  - 'copilot.bing.com'  
-  - 'openai.com'
-  - 'gemini.google.com'
+  - '*.*.tiktok.com'
+  - '*.*.bing.com'
+  - '*.*.copilot.bing.com'  
+  - '*.*.openai.com'
+  - '*.*.gemini.google.com'
