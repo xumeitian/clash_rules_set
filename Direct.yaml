@@ -12,3 +12,7 @@ payload:
   - DOMAIN-SUFFIX,tiangong.cn
   - DOMAIN-SUFFIX,10086.cn
   - DOMAIN-KEYWORD,chinamobile
+
+  - GEOIP,LAN
+  - GEOIP,CN
+
