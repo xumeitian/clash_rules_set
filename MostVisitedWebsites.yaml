@@ -14,3 +14,4 @@ payload:
   - DOMAIN-KEYWORD,fanmingming
   - DOMAIN-SUFFIX,githubusercontent.com
   - DOMAIN-KEYWORD,github
+  - DOMAIN-SUFFIX,cloudflare.com
