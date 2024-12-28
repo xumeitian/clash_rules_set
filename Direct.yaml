@@ -7,6 +7,8 @@ payload:
   - DOMAIN-SUFFIX,wind.com.cn
   - DOMAIN-SUFFIX,jd.com
   - DOMAIN-SUFFIX,mail.163.com
-  - DOMAIN-SFFIX,sogou.com
+  - DOMAIN-SUFFIX,sogou.com
   - DOMAIN-SUFFIX,doubao.com
   - DOMAIN-SUFFIX,tiangong.cn
+  - DOMAIN-SUFFIX,10086.cn
+  - DOMAIN-KEYWORD,chinamobile
