@@ -5,6 +5,7 @@ payload:
   - DOMAIN-SUFFIX,microsoft.com
   - DOMAIN-SUFFIX,live.com
   - DOMAIN-SUFFIX,github.com
+  - DOMAIN-SUFFIX,github.io
   - DOMAIN-SUFFIX,bing.com
   - DOMAIN-SUFFIX,azure.com
   - DOMAIN-SUFFIX,hongxingdl.com
