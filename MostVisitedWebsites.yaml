@@ -16,3 +16,4 @@ payload:
   - DOMAIN-SUFFIX,githubusercontent.com
   - DOMAIN-KEYWORD,github
   - DOMAIN-SUFFIX,cloudflare.com
+  - DOMAIN-SUFFIX,msn.com
