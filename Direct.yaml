@@ -6,15 +6,15 @@ payload:
   - DOMAIN-SUFFIX,youdao.com
   - DOMAIN-SUFFIX,wind.com.cn
   - DOMAIN-SUFFIX,jd.com
-  - DOMAIN-SUFFIX,mail.163.com
+  - DOMAIN-SUFFIX,wechat.com
   - DOMAIN-SUFFIX,sogou.com
   - DOMAIN-SUFFIX,doubao.com
   - DOMAIN-SUFFIX,tiangong.cn
-  - DOMAIN-SUFFIX,10086.cn
+  - DOMAIN-SUFFIX,heytap.com
+  - DOMAIN-SUFFIX,weixin.com
+  - DOMAIN-SUFFIX,qq.com
   - DOMAIN-KEYWORD,chinamobile
-
+  
   - GEOIP,LAN
   - GEOIP,CN
   - GEOIP,cn
-
-
