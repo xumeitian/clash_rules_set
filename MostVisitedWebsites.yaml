@@ -4,6 +4,7 @@ payload:
   - DOMAIN-SUFFIX,googlevideo.com
   - DOMAIN-SUFFIX,microsoft.com
   - DOMAIN-KEYWORD,bing.microsoft.com
+  - DOMAIN-SUFFIX,office.com
   - DOMAIN-SUFFIX,live.com
   - DOMAIN-SUFFIX,github.com
   - DOMAIN-SUFFIX,github.io
