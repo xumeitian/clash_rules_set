@@ -13,6 +13,8 @@ payload:
   - DOMAIN-SUFFIX,heytap.com
   - DOMAIN-SUFFIX,weixin.com
   - DOMAIN-SUFFIX,qq.com
+  - DOMAIN-SUFFIX,icbc.com.cn
+  - DOMAIN-SUFFIX,huawei.com
   - DOMAIN-KEYWORD,chinamobile
   
   - GEOIP,LAN
