@@ -2,5 +2,5 @@ payload:
   - DOMAIN-SUFFIX,tiktok.com
   - DOMAIN-SUFFIX,openai.com
   - DOMAIN-KEYWORD,chatgpt
-  - DOMAIN-SUFFIX,test-ipv6.com
+  
 
