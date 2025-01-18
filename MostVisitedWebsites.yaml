@@ -13,7 +13,7 @@ payload:
   - DOMAIN-SUFFIX,azure.com
   - DOMAIN-SUFFIX,hongxingdl.com
   - DOMAIN-KEYWORD,cylink
-  - DOMAIN-KEYWORD,fanmingming
+  - DOMAIN-SUFFIX,fanmingming.com
   - DOMAIN-KEYWORD,fanmingming
   - DOMAIN-SUFFIX,githubusercontent.com
   - DOMAIN-KEYWORD,github
