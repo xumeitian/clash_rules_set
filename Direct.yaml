@@ -17,6 +17,7 @@ payload:
   - DOMAIN-SUFFIX,icbc.com.cn
   - DOMAIN-SUFFIX,huawei.com
   - DOMAIN-KEYWORD,chinamobile
+  - DOMAIN-SUFFIX,deepseek.com
   
   - GEOIP,LAN
   - GEOIP,CN
