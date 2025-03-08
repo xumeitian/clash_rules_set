@@ -4,3 +4,4 @@ payload:
   - DOMAIN-KEYWORD,chatgpt
   - DOMAIN-SUFFIX,amazon.com
   - DOMAIN-SUFFIX,voice.google.com
+  - DOMAIN-KEYWORD,tiktok
