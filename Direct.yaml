@@ -18,6 +18,7 @@ payload:
   - DOMAIN-SUFFIX,huawei.com
   - DOMAIN-KEYWORD,chinamobile
   - DOMAIN-SUFFIX,deepseek.com
+  - DOMAIN-SUFFIX,microsoft.com
   
   - GEOIP,LAN
   - GEOIP,CN
