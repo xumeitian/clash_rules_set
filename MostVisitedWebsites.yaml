@@ -17,3 +17,6 @@ payload:
   - DOMAIN-SUFFIX,cloudflare.com
   - DOMAIN-SUFFIX,msn.com
   - DOMAIN-KEYWORD,hongxingdl
+  - DOMAIN-KEYWORD,hongxing
+  - DOMAIN-KEYWORD,glarity
+  - DOMAIN-KEYWORD,felo.ai
