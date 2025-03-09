@@ -22,6 +22,7 @@ payload:
   - DOMAIN-KEYWORD,microsoft
   - DOMAIN-KEYWORD,live.com
   - DOMAIN-KEYWORD,outlook.com
+  - DOMAIN-SUFFIX,baidu.com
   
   - GEOIP,LAN
   - GEOIP,CN
