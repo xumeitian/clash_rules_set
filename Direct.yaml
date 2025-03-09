@@ -19,6 +19,9 @@ payload:
   - DOMAIN-KEYWORD,chinamobile
   - DOMAIN-SUFFIX,deepseek.com
   - DOMAIN-SUFFIX,microsoft.com
+  - DOMAIN-KEYWORD,microsoft
+  - DOMAIN-KEYWORD,live.com
+  - DOMAIN-KEYWORD,outlook.com
   
   - GEOIP,LAN
   - GEOIP,CN
