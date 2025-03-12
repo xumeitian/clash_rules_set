@@ -23,6 +23,7 @@ payload:
   - DOMAIN-KEYWORD,live.com
   - DOMAIN-KEYWORD,outlook.com
   - DOMAIN-SUFFIX,baidu.com
+  - DOMAIN-SUFFIX,ipify.org
   
   
   - GEOIP,CN
