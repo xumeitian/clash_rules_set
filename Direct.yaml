@@ -12,7 +12,7 @@ payload:
   - DOMAIN-SUFFIX,tiangong.cn
   - DOMAIN-SUFFIX,oneplus.com
   - DOMAIN-SUFFIX,heytap.com
-  - DOMAIN-SUFFIX,weixin.com
+  - DOMAIN-KEYWORD,weixin
   - DOMAIN-SUFFIX,qq.com
   - DOMAIN-SUFFIX,icbc.com.cn
   - DOMAIN-SUFFIX,huawei.com
