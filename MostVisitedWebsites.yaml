@@ -29,7 +29,7 @@ payload:
 
   
   # Cylink
-  - IP-CIDR,45.137.181.225/32,DIRECT    
+  - IP-CIDR,45.137.181.225/32  
   - DOMAIN-SUFFIX,2cy.io
   - DOMAIN-KEYWORD,cylink
 
