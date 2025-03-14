@@ -18,10 +18,7 @@ payload:
   - DOMAIN-SUFFIX,huawei.com
   - DOMAIN-KEYWORD,chinamobile
   - DOMAIN-SUFFIX,deepseek.com
-  - DOMAIN-SUFFIX,microsoft.com
-  - DOMAIN-KEYWORD,microsoft
-  - DOMAIN-KEYWORD,live.com
-  - DOMAIN-KEYWORD,outlook.com
+
   - DOMAIN-SUFFIX,baidu.com
   - DOMAIN-SUFFIX,ipify.org
   
