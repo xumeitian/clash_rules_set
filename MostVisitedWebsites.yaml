@@ -2,7 +2,6 @@ payload:
 
   # 微软
   - DOMAIN-SUFFIX,bing.com  
-  - DOMAIN-KEYWORD,bing.microsoft.com
   - DOMAIN-SUFFIX,office.com
   - DOMAIN-SUFFIX,live.com
   - DOMAIN-SUFFIX,azure.com
