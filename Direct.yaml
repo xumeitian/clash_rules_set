@@ -14,10 +14,11 @@ payload:
   - DOMAIN-SUFFIX,heytap.com
   - DOMAIN-KEYWORD,weixin
   - DOMAIN-SUFFIX,qq.com
-  - DOMAIN-SUFFIX,icbc.com.cn
+  - DOMAIN-SUFFIX,dytt8.net   #电影天堂
   - DOMAIN-SUFFIX,huawei.com
   - DOMAIN-KEYWORD,chinamobile
   - DOMAIN-SUFFIX,deepseek.com
+  - DOMAIN-SUFFIX,icbc.com
 
   - DOMAIN-SUFFIX,baidu.com
   - DOMAIN-SUFFIX,ipify.org
