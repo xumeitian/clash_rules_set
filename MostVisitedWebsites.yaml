@@ -1,5 +1,9 @@
 payload:
 
+  # work 
+  - DOMAIN-SUFFIX,cmegroup.com  
+
+  
   # 微软
   - DOMAIN-SUFFIX,bing.com  
   - DOMAIN-SUFFIX,office.com
