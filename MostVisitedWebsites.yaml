@@ -12,6 +12,8 @@ payload:
   - DOMAIN-SUFFIX,msn.com
   - DOMAIN-SUFFIX,microsoft.com
   - DOMAIN-SUFFIX,outlook.com
+  - DOMAIN-KEYWORD,microsoft
+  - DOMAIN-KEYWORD,stinkynotes
 
   
   # 红杏机场
