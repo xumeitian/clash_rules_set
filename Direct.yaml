@@ -21,6 +21,7 @@ payload:
   - DOMAIN-SUFFIX,icbc.com
 
   - DOMAIN-SUFFIX,baidu.com
+  - DOMAIN-SUFFIX,map.baidu.com
   - DOMAIN-SUFFIX,ipify.org
 
   # 微软
