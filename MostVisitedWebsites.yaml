@@ -39,6 +39,7 @@ payload:
   - DOMAIN-SUFFIX,docker.com
   - DOMAIN-SUFFIX,netflix.com
   - DOMAIN-SUFFIX,yahoo.com
+  - DOMAIN-KEYWORD,wildcard
 
   
   
