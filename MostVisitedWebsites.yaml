@@ -40,6 +40,7 @@ payload:
   - DOMAIN-SUFFIX,netflix.com
   - DOMAIN-SUFFIX,yahoo.com
   - DOMAIN-KEYWORD,wildcard
+  - DOMAIN-KEYWORD,2233.ai
 
   
   
