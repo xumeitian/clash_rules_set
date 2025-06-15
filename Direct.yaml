@@ -30,6 +30,7 @@ payload:
   - DOMAIN-SUFFIX,live.com
   - DOMAIN-SUFFIX,azure.com
   - DOMAIN-SUFFIX,msn.com
+  - DOMAIN-SUFFIX,msn.cn
   - DOMAIN-SUFFIX,microsoft.com
   - DOMAIN-SUFFIX,outlook.com
   - DOMAIN-KEYWORD,microsoft
