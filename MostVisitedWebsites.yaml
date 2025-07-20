@@ -42,6 +42,7 @@ payload:
   - DOMAIN-KEYWORD,wildcard
   - DOMAIN-KEYWORD,2233.ai
   - DOMAIN-SUFFIX,epochtimes.com
+  - DOMAIN-SUFFIX,leonardo.ai
 
   
   
