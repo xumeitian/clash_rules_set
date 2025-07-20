@@ -24,6 +24,7 @@ payload:
   - DOMAIN-SUFFIX,baidu.com
   - DOMAIN-SUFFIX,map.baidu.com
   - DOMAIN-SUFFIX,ipify.org
+  - DOMAIN-SUFFIX,speedtest.cn
 
   # 微软
   - DOMAIN-SUFFIX,bing.com  
