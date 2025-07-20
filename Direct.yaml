@@ -19,6 +19,7 @@ payload:
   - DOMAIN-KEYWORD,chinamobile
   - DOMAIN-SUFFIX,deepseek.com
   - DOMAIN-SUFFIX,icbc.com
+  - DOMAIN-SUFFIX,youku.com
 
   - DOMAIN-SUFFIX,baidu.com
   - DOMAIN-SUFFIX,map.baidu.com
