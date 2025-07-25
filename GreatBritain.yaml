@@ -1,5 +1,4 @@
 payload:
   - DOMAIN-SUFFIX,giffgaff.com
-  - DOMAIN-SUFFIX,uk
-  - GEOIP,UK
+  - GEOIP,GB
   
