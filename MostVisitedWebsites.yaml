@@ -25,6 +25,10 @@ payload:
   - DOMAIN-KEYWORD,github
   - DOMAIN-SUFFIX,cloudflare.com
 
+  # tiktok
+  - DOMAIN-SUFFIX,tiktok.com
+  - DOMAIN-KEYWORD,tiktok
+
   
   # Cylink
   - IP-CIDR,45.137.181.225/32  
