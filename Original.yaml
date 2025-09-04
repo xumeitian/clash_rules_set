@@ -4,8 +4,6 @@ payload:
   - DOMAIN-SUFFIX,paypal.com
   - DOMAIN-KEYWORD,paypal
   
-  - DOMAIN-SUFFIX,tiktok.com
-  - DOMAIN-KEYWORD,tikto
   
   - DOMAIN-SUFFIX,voice.google.com
   
