@@ -8,3 +8,7 @@ payload:
   - DOMAIN-SUFFIX,voice.google.com
   
   - DOMAIN-SUFFIX,nytimes.com
+
+  # tiktok
+  - DOMAIN-SUFFIX,tiktok.com
+  - DOMAIN-KEYWORD,tiktok
