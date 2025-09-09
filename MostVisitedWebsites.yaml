@@ -3,20 +3,14 @@ payload:
   # work 
   - DOMAIN-SUFFIX,cmegroup.com  
 
-  
-  
-
-  
   # 红杏机场
   - DOMAIN-SUFFIX,hongxingdl.com    
   - DOMAIN-KEYWORD,hongxingdl
   - DOMAIN-KEYWORD,hongxing
 
-
   # 直播源地址
   - DOMAIN-SUFFIX,fanmingming.com
   - DOMAIN-KEYWORD,fanmingming
-
   
   # github
   - DOMAIN-SUFFIX,github.com
@@ -24,15 +18,11 @@ payload:
   - DOMAIN-SUFFIX,githubusercontent.com
   - DOMAIN-KEYWORD,github
   - DOMAIN-SUFFIX,cloudflare.com
-
-  
-
   
   # Cylink
   - IP-CIDR,45.137.181.225/32  
   - DOMAIN-SUFFIX,2cy.io
   - DOMAIN-KEYWORD,cylink
-
   
   # Other
   - DOMAIN-KEYWORD,glarity
