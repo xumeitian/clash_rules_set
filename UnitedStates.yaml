@@ -1,7 +1,7 @@
 payload:
   
   - DOMAIN-SUFFIX,openai.com
-  - DOMAIN-KEYWORD,chatgpt
+  - DOMAIN-SUFFIX,chatgpt.com
   - DOMAIN-SUFFIX,sora.com
   
   - DOMAIN-SUFFIX,amazon.com
