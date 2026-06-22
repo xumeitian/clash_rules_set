@@ -12,7 +12,9 @@ payload:
 
   # tiktok
   - DOMAIN-SUFFIX,tiktok.com
-  - DOMAIN-KEYWORD,tiktok
+  - DOMAIN-KEYWORD,tiktokcdn
+  - DOMAIN-SUFFIX,tiktokcdn.com
+  - DOMAIN-SUFFIX,tiktokv.com
 
   
   - DOMAIN-SUFFIX,talkatone.com
