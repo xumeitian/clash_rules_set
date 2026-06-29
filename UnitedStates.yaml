@@ -16,6 +16,7 @@ payload:
   - DOMAIN-SUFFIX,tiktokcdn.com
   - DOMAIN-SUFFIX,tiktokv.com
   - DOMAIN-KEYWORD,tiktok
+  - DOMAIN-SUFFIX,tiktokw.us
 
   
   - DOMAIN-SUFFIX,talkatone.com
