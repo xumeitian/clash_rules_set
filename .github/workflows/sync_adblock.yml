@@ -1,0 +1,35 @@
+name: Sync Adblock.yaml from remote reject.txt every hour
+
+on:
+  schedule:
+    - cron: '0 * * * *'  # 每小时0分触发
+
+jobs:
+  sync-file:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Download reject.txt and overwrite Adblock.yaml
+      run: |
+        curl -sSL -o Adblock.yaml https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/reject.txt
+
+    - name: Check for changes
+      id: check_changes
+      run: |
+        if git diff --quiet -- Adblock.yaml; then
+          echo "changed=false" >> $GITHUB_OUTPUT
+        else
+          echo "changed=true" >> $GITHUB_OUTPUT
+        fi
+
+    - name: Commit and push if changed
+      if: steps.check_changes.outputs.changed == 'true'
+      run: |
+        git config user.name "github-actions[bot]"
+        git config user.email "github-actions[bot]@users.noreply.github.com"
+        git add Adblock.yaml
+        git commit -m "Update Adblock.yaml from reject.txt"
+        git push
