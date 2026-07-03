@@ -26,6 +26,9 @@ payload:
   - DOMAIN-SUFFIX,ipify.org
   - DOMAIN-SUFFIX,speedtest.cn
 
+  - DOMAIN-SUFFIX,gs.gszyi.com
+  - DOMAIN-KEYWORD,ikanbot.com
+
   
   
   
