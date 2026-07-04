@@ -5,13 +5,18 @@ on:
     - cron: '0 * * * *'
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   sync-file:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout repository
+    - name: Checkout repository with write permission
       uses: actions/checkout@v3
+      with:
+        persist-credentials: true
 
     - name: Download reject.txt and overwrite Adblock.yaml
       run: |
