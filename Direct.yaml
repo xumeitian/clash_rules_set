@@ -17,6 +17,8 @@ payload:
   - DOMAIN-SUFFIX,dytt8.net   #电影天堂
   - DOMAIN-SUFFIX,huawei.com
   - DOMAIN-KEYWORD,chinamobile
+  - DOMAIN-SUFFIX,10086.cn
+  - DOMAIN-SUFFIX,10086.com
   - DOMAIN-SUFFIX,deepseek.com
   - DOMAIN-SUFFIX,icbc.com
   - DOMAIN-SUFFIX,youku.com
@@ -25,11 +27,8 @@ payload:
   - DOMAIN-SUFFIX,map.baidu.com
   - DOMAIN-SUFFIX,ipify.org
   - DOMAIN-SUFFIX,speedtest.cn
-
   
   - DOMAIN-KEYWORD,ikanbot.com
 
   
-  
-  
-  - GEOIP,CN
+
