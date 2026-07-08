@@ -5,9 +5,7 @@ payload:
   - DOMAIN-SUFFIX,sora.com
   
   - DOMAIN-SUFFIX,amazon.com
-  
-  - DOMAIN-SUFFIX,voice.google.com
-  
+     
   - DOMAIN-SUFFIX,nytimes.com
 
   # tiktok
