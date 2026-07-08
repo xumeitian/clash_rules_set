@@ -22,5 +22,8 @@ payload:
   - DOMAIN-SUFFIX,talkatone.com
   - DOMAIN-SUFFIX,saily.com
 
-  - DOMAIN-SUFFIX,paypal.com
+  - DOMAIN-SUFFIX,paypal.com- 域名后缀,paypal.com
+
+  - DOMAIN-SUFFIX,whatsapp.com
+  - DOMAIN-SUFFIX,whatsapp.net
 
