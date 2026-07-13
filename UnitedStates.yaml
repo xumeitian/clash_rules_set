@@ -25,3 +25,12 @@ payload:
   - DOMAIN-SUFFIX,whatsapp.com
   - DOMAIN-SUFFIX,whatsapp.net
 
+  # Google Gemini 核心网页及 API
+  - DOMAIN-SUFFIX,gemini.google.com
+  - DOMAIN-SUFFIX,aistudio.google.com
+  - DOMAIN-SUFFIX,ai.google.dev
+  - DOMAIN-KEYWORD,gemini
+# 必须依赖的 Google 服务
+  - DOMAIN-SUFFIX,googleapis.com
+  - DOMAIN-SUFFIX,gstatic.com
+
