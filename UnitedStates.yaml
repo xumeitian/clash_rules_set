@@ -30,7 +30,7 @@ payload:
   - DOMAIN-SUFFIX,aistudio.google.com
   - DOMAIN-SUFFIX,ai.google.dev
   - DOMAIN-KEYWORD,gemini
-# 必须依赖的 Google 服务
+  # 必须依赖的 Google 服务
   - DOMAIN-SUFFIX,googleapis.com
   - DOMAIN-SUFFIX,gstatic.com
 
