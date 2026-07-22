@@ -38,17 +38,6 @@ payload:
   - DOMAIN-SUFFIX,2cy.io
   - DOMAIN-KEYWORD,cylink
   - DOMAIN-SUFFIX,2cy.now
-
-  # 微软
-  - DOMAIN-SUFFIX,bing.com  
-  - DOMAIN-SUFFIX,office.com
-  - DOMAIN-SUFFIX,live.com
-  - DOMAIN-SUFFIX,azure.com
-  - DOMAIN-SUFFIX,msn.com
-  - DOMAIN-SUFFIX,microsoft.com
-  - DOMAIN-SUFFIX,outlook.com
-  - DOMAIN-KEYWORD,microsoft
-  - DOMAIN-KEYWORD,stickynotes
   
   # Other
   - DOMAIN-KEYWORD,glarity
