@@ -30,5 +30,17 @@ payload:
   
   - DOMAIN-KEYWORD,ikanbot.com
 
+
+  # 微软
+  - DOMAIN-SUFFIX,bing.com  
+  - DOMAIN-SUFFIX,office.com
+  - DOMAIN-SUFFIX,live.com
+  - DOMAIN-SUFFIX,azure.com
+  - DOMAIN-SUFFIX,msn.com
+  - DOMAIN-SUFFIX,microsoft.com
+  - DOMAIN-SUFFIX,outlook.com
+  - DOMAIN-KEYWORD,microsoft- 域名关键字，微软
+  - DOMAIN-KEYWORD,stickynotes
+
   
 
