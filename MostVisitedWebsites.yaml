@@ -6,7 +6,8 @@ payload:
   # 红杏机场
   - DOMAIN-SUFFIX,hongxingdl.com    
   - DOMAIN-KEYWORD,hongxingdl
-  - DOMAIN-KEYWORD,hongxing
+  - DOMAIN-KEYWORD,hongxing 
+  - DOMAIN-SUFFIX,hxhomelove.com
 
   # 直播源地址
   - DOMAIN-SUFFIX,fanmingming.com
