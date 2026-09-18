@@ -22,14 +22,9 @@ payload:
   - DOMAIN-KEYWORD,github
   - DOMAIN-SUFFIX,cloudflare.com
   
-  # GitHub 代码分发与 API
-  - DOMAIN-SUFFIX,://github.com
-  - DOMAIN-SUFFIX,://github.com
-  - DOMAIN,://github.com
   
   # GitHub CDN 资源
   - DOMAIN,github.global.ssl.fastly.net
-  - DOMAIN,://github.com
   
   # Cylink
   - IP-CIDR,45.137.181.225/32  
