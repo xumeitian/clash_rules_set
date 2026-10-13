@@ -1,0 +1,110 @@
+# 核心优化：强制阿里系应用放弃 QUIC (UDP 443)，瞬间回退 TCP 解决转圈慢的问题
+- AND,((NETWORK,UDP),(DST-PORT,443),(GEOSITE,alibaba)),REJECT
+
+# 局域网与私有 IP 放行
+- IP-CIDR6,::1/128,DIRECT,no-resolve
+- IP-CIDR6,fc00::/7,DIRECT,no-resolve
+- IP-CIDR6,fe80::/10,DIRECT,no-resolve
+- IP-CIDR6,ff00::/8,DIRECT,no-resolve
+- IP-CIDR,127.0.0.0/8,DIRECT,no-resolve
+- IP-CIDR,169.254.0.0/16,DIRECT,no-resolve
+- IP-CIDR,10.0.0.0/8,DIRECT,no-resolve
+- IP-CIDR,172.16.0.0/12,DIRECT,no-resolve
+- IP-CIDR,192.168.0.0/16,DIRECT,no-resolve
+- IP-CIDR,100.64.0.0/10,DIRECT,no-resolve
+- IP-CIDR,224.0.0.0/4,DIRECT,no-resolve
+- IP-CIDR,240.0.0.0/4,DIRECT,no-resolve
+
+- GEOSITE,private,DIRECT
+
+# 核心优化：阿里系服务直连 (替代原本冗长的 DOMAIN-SUFFIX，涵盖更全)
+- GEOSITE,alibaba,DIRECT
+
+# 国内 App 专属直连
+- DOMAIN-SUFFIX,qq.com,DIRECT
+- DOMAIN-SUFFIX,tencent.com,DIRECT
+- DOMAIN-SUFFIX,wechat.com,DIRECT
+- DOMAIN-SUFFIX,servicewechat.com,DIRECT
+- DOMAIN-SUFFIX,gtimg.com,DIRECT
+- DOMAIN-SUFFIX,gtimg.cn,DIRECT
+- DOMAIN-SUFFIX,qpic.cn,DIRECT
+- DOMAIN-SUFFIX,qlogo.cn,DIRECT
+- DOMAIN-SUFFIX,tenpay.com,DIRECT
+- DOMAIN-SUFFIX,myqcloud.com,DIRECT
+- DOMAIN-SUFFIX,qcloud.com,DIRECT
+- DOMAIN-SUFFIX,douyin.com,DIRECT
+- DOMAIN-SUFFIX,douyincdn.com,DIRECT
+- DOMAIN-SUFFIX,douyinpic.com,DIRECT
+- DOMAIN-SUFFIX,douyinstatic.com,DIRECT
+- DOMAIN-SUFFIX,douyinliving.com,DIRECT
+- DOMAIN-SUFFIX,iesdouyin.com,DIRECT
+- DOMAIN-SUFFIX,douyinvod.com,DIRECT
+- DOMAIN-SUFFIX,douyinvideo.net,DIRECT
+- DOMAIN-SUFFIX,amemv.com,DIRECT
+- DOMAIN-SUFFIX,snssdk.com,DIRECT
+- DOMAIN-SUFFIX,byteimg.com,DIRECT
+- DOMAIN-SUFFIX,bytecdn.cn,DIRECT
+- DOMAIN-SUFFIX,ibytedtos.com,DIRECT
+- DOMAIN-SUFFIX,zijieapi.com,DIRECT
+- DOMAIN-SUFFIX,pstatp.com,DIRECT
+- DOMAIN-SUFFIX,toutiao.com,DIRECT
+- DOMAIN-SUFFIX,toutiaovod.com,DIRECT
+- DOMAIN-SUFFIX,bytedance.net,DIRECT
+- DOMAIN-SUFFIX,xiaohongshu.com,DIRECT
+- DOMAIN-SUFFIX,xhscdn.com,DIRECT
+- DOMAIN-SUFFIX,xhscdn.net,DIRECT
+- DOMAIN-SUFFIX,xhslink.com,DIRECT
+- DOMAIN-SUFFIX,xhsimg.com,DIRECT
+
+# 115 专属直连
+- DOMAIN-SUFFIX,115.com,DIRECT
+- DOMAIN-SUFFIX,115cdn.com,DIRECT
+- DOMAIN-SUFFIX,115cdn.net,DIRECT
+- DOMAIN-SUFFIX,115img.com,DIRECT
+- DOMAIN-SUFFIX,116cd.cn,DIRECT
+- DOMAIN-SUFFIX,116cd.com,DIRECT
+- DOMAIN-SUFFIX,116cd.net,DIRECT
+- DOMAIN-SUFFIX,anxia.com,DIRECT
+- DOMAIN-SUFFIX,sq.cc,DIRECT
+- DOMAIN,fhnfile.oss-cn-shenzhen.aliyuncs.com,DIRECT
+
+
+# Microsoft/Office/Windows 服务直连，避免后台服务误走不稳定代理
+- GEOSITE,microsoft,DIRECT
+- DOMAIN-SUFFIX,microsoft.com,DIRECT
+- DOMAIN-SUFFIX,msftconnecttest.com,DIRECT
+- DOMAIN-SUFFIX,msftncsi.com,DIRECT
+- DOMAIN-SUFFIX,windowsupdate.com,DIRECT
+- DOMAIN-SUFFIX,office.com,DIRECT
+- DOMAIN-SUFFIX,office.net,DIRECT
+- DOMAIN-SUFFIX,office365.com,DIRECT
+- DOMAIN-SUFFIX,live.com,DIRECT
+- DOMAIN-SUFFIX,live.net,DIRECT
+- DOMAIN-SUFFIX,outlook.com,DIRECT
+- DOMAIN-SUFFIX,microsoftonline.com,DIRECT
+- DOMAIN-SUFFIX,microsoftonline-p.com,DIRECT
+- DOMAIN-SUFFIX,sharepoint.com,DIRECT
+- DOMAIN-SUFFIX,sharepointonline.com,DIRECT
+- DOMAIN-SUFFIX,onedrive.com,DIRECT
+- DOMAIN-SUFFIX,skype.com,DIRECT
+- DOMAIN-SUFFIX,azureedge.net,DIRECT
+- DOMAIN-SUFFIX,msauth.net,DIRECT
+- DOMAIN-SUFFIX,msauthimages.net,DIRECT
+- DOMAIN-SUFFIX,msftauth.net,DIRECT
+- DOMAIN-SUFFIX,msftauthimages.net,DIRECT
+
+# 基础规则集匹配
+- GEOSITE,category-games@cn,DIRECT
+- GEOSITE,apple-cn,DIRECT
+- GEOSITE,apple,DIRECT
+- GEOSITE,microsoft@cn,DIRECT
+- GEOSITE,steam@cn,DIRECT
+- DOMAIN-SUFFIX,cn,DIRECT
+- DOMAIN-SUFFIX,中国,DIRECT
+- DOMAIN-SUFFIX,公司,DIRECT
+- DOMAIN-SUFFIX,网络,DIRECT
+
+# 国内与国外保底分流规则
+- GEOSITE,cn,DIRECT
+- GEOSITE,geolocation-cn,DIRECT
+- GEOIP,CN,DIRECT,no-resolve
