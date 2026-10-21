@@ -21,6 +21,11 @@ payload:
   - DOMAIN-SUFFIX,2cy.io
   - DOMAIN-KEYWORD,cylink
   - DOMAIN-SUFFIX,2cy.now
+
+  # DNS泄露测试网站
+  - DOMAIN-SUFFIX,browerleaks.com
+  - DOMAIN-SUFFIX,dnsleaktest.com
+  - DOMAIN-SUFFIX,ipleak.net
   
   # Other
   - DOMAIN-KEYWORD,glarity
