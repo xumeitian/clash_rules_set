@@ -3,11 +3,36 @@ payload:
   # work 
   - DOMAIN-SUFFIX,cmegroup.com  
 
-  # 红杏机场
-  - DOMAIN-SUFFIX,hongxingdl.com    
-  - DOMAIN-KEYWORD,hongxingdl
-  - DOMAIN-KEYWORD,hongxing 
-  - DOMAIN-SUFFIX,hxhomelove.com
+  
+  # 红杏机场最新域名：
+  - DOMAIN-SUFFIX,hongxingyun.best
+  - DOMAIN-SUFFIX,hongxingyun.beauty
+  - DOMAIN-SUFFIX,hongxingyun.asia
+  - DOMAIN-SUFFIX,hx.hongxingyun.6g.in
+  - DOMAIN-SUFFIX,hx.hongxingyun.5g.in
+  - DOMAIN-SUFFIX,hongxingyun.cyou
+  - DOMAIN-SUFFIX,hongxingyun.sbs
+  - DOMAIN-SUFFIX,hongxingyun.dev
+  - DOMAIN-SUFFIX,hongxingyun.live
+  - DOMAIN-SUFFIX,hongxingyun.click
+  
+  # 红杏机场永久域名：
+  - DOMAIN-SUFFIX,hongxingdl.com
+  - DOMAIN-SUFFIX,hongxingdl.net
+  - DOMAIN-SUFFIX,hongxingdl.it
+  - DOMAIN-SUFFIX,hongxingdl.one
+  - DOMAIN-SUFFIX,hongxingdl.club
+  - DOMAIN-SUFFIX,hongxingdl.co
+  - DOMAIN-SUFFIX,hongxingdl.cc
+  - DOMAIN-SUFFIX,hongxingdl.love
+  - DOMAIN-SUFFIX,hongxingyun.cc
+  - DOMAIN-SUFFIX,hongxingyun.vip
+  - DOMAIN-SUFFIX,hongxingyun.co
+  - DOMAIN-SUFFIX,hongxingyun.org
+  - DOMAIN-SUFFIX,hongxingyun.us
+  - DOMAIN-SUFFIX,hongxingyun.one
+
+
 
   # 直播源地址
   - DOMAIN-SUFFIX,fanmingming.com
