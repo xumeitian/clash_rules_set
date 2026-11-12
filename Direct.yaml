@@ -1,6 +1,7 @@
 payload:
   - DOMAIN-SUFFIX,mail.163.com
   - DOMAIN-SUFFIX,youdao.com
+  - DOMAIN-SUFFIX,koolcenter.com
   
   - DOMAIN-SUFFIX,camcard.com
   - DOMAIN-SUFFIX,bilibili.com
